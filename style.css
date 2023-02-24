@@ -1,0 +1,56 @@
+.heading{
+    text-align: center;
+    color:cyan
+}
+.rock,.paper,.scissor{
+    height: 150px;
+    width: 110px;
+    /* position: relative; */
+    cursor: pointer;
+}
+.result{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: aliceblue;
+}
+.center{
+    text-align: center;
+    color: beige;
+}
+body{
+    background-color: black;
+}
+pre,p{
+    color: aliceblue;
+    text-align: center;
+}
+.left{
+    margin-left: auto;
+    float: left;
+    width: 110px;
+    padding: 20px;
+    margin: 25px;
+    
+}
+.middle{
+    float: left;
+    width: 110px;
+    padding: 20px;
+    margin: 25px;
+    
+}
+.right{
+    margin-right:auto;
+    float: left;
+    width: 110px;
+    padding: 20px;
+    margin: 25px;
+    
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
