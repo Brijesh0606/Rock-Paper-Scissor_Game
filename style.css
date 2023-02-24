@@ -5,7 +5,6 @@
 .rock,.paper,.scissor{
     height: 150px;
     width: 110px;
-    /* position: relative; */
     cursor: pointer;
 }
 .result{
