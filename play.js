@@ -22,8 +22,7 @@ function select(id) {
 
         }
         else if (x == 3) {
-            result.innerHTML = "You Win the Game";
-            result.style.backgroundColor = 'Green';
+            you_win();
             resultcomp.textContent = 'Computer : Scissor';
             resultyou.textContent = 'You : Rock';
         }
