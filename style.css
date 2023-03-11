@@ -8,11 +8,12 @@
     cursor: pointer;
 }
 .result{
+    display: table;
     position: relative;
     text-align: center;
-    margin-top: 50px;
     font-size: 50px;
     color: aliceblue;
+    width: 50%;
 }
 .center{
     text-align: center;
@@ -52,4 +53,18 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+table{
+    width: 200px;
+}
+table,th,td {
+    border: 2px solid wheat;
+    color: antiquewhite;
+    text-align: center;
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
