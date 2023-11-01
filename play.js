@@ -11,6 +11,24 @@ let youwin = 0;
 let youlost = 0;
 let draw = 0;
 let totalmatch = 0;
+
+function reset() { 
+
+    youwin = 0;
+    youlost = 0;
+    draw = 0;
+    totalmatch = 0;
+    youwincount.innerHTML = youwin;
+    youlostcount.innerHTML = youlost;
+    draws.innerHTML = draw;
+    totalmatches.innerHTML = totalmatch;
+    resultcomp.textContent = "Click on Image to Play Game";
+    resultyou.textContent = "Let's Play Game";
+    result.innerHTML = "Rock Paper Scissor";
+    result.style.backgroundColor = "";
+
+}
+
 function select(id) {
     let x = Math.ceil(Math.random() * 3);
     player = id;
